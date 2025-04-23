@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111.51" height="111.51" viewBox="0 0 111.51 111.51">
+  <defs>
+    <filter id="Elipse_11513" x="0" y="0" width="111.51" height="111.51" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <ellipse id="Elipse_12613" data-name="Elipse 12613" cx="34" cy="34.5" rx="34" ry="34.5" transform="translate(771.844 3189.948)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.045" y1="0.955" x2="0.955" y2="0.045" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcc60e"/>
+      <stop offset="1" stop-color="#e92e29"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1212316" data-name="Grupo 1212316" transform="translate(-745 -3165)">
+    <g id="Grupo_1211724" data-name="Grupo 1211724" transform="translate(0.094 -2060.456)">
+      <g id="Grupo_1209509" data-name="Grupo 1209509" transform="translate(1.063 3556.211)">
+        <g id="Grupo_1146577" data-name="Grupo 1146577" transform="translate(418.75 -192.966)">
+          <g id="Grupo_1144092" data-name="Grupo 1144092" transform="translate(334.093 1868.211)">
+            <g id="Grupo_1143593" data-name="Grupo 1143593" transform="translate(0 0)">
+              <g id="Grupo_1143497" data-name="Grupo 1143497" transform="translate(0 0)">
+                <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Elipse_11513)">
+                  <g id="Elipse_11513-2" data-name="Elipse 11513" transform="translate(9 6)" fill="#fdf2d5" stroke="#f5c038" stroke-width="3">
+                    <circle cx="46.755" cy="46.755" r="46.755" stroke="none"/>
+                    <circle cx="46.755" cy="46.755" r="45.255" fill="none"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Enmascarar_grupo_1098925" data-name="Enmascarar grupo 1098925" transform="translate(-4.844 -5.948)" clip-path="url(#clip-path)">
+      <path id="paint-brush_4289509" d="M44.464,22.668c6.77-5.711,9.211-6.367,9.883-6.414a9.823,9.823,0,0,1-1.642,3.459,67.543,67.543,0,0,1-5.219,6.868c-2.7,3.2-5.754,6.505-8.317,9.209l-4.332-4.332c2.824-2.722,6.288-5.974,9.626-8.79ZM31.512,34.695l-.98.958,4.475,4.475.518-.536c.42-.434.9-.927,1.415-1.466l-4.418-4.418-1.009.987ZM68.89,10.548V58.342A10.56,10.56,0,0,1,58.342,68.89H10.548A10.56,10.56,0,0,1,0,58.342V10.548A10.56,10.56,0,0,1,10.548,0H58.342A10.56,10.56,0,0,1,68.89,10.548ZM56.746,13.917c-1.951-1.951-5.2-.182-6.271.4a49.235,49.235,0,0,0-7.268,5.194c-5.159,4.266-10.665,9.657-13.955,12.878-.927.908-1.66,1.625-2.132,2.069a1.609,1.609,0,0,0-.338.459,8.4,8.4,0,0,0-6.1,2c-1.782,1.638-2.567,4.02-3.326,6.323-1.027,3.115-2,6.056-5.186,7.7a1.615,1.615,0,0,0-.007,2.866,18.779,18.779,0,0,0,8.649,2.068,17.617,17.617,0,0,0,8.954-2.338,12.946,12.946,0,0,0,6.414-9.969l.022-.021c.365-.388.927-.97,1.639-1.707,2.966-3.069,8.486-8.783,12.887-14.1,6.375-7.708,8.117-11.711,6.013-13.815ZM20.428,44.244c-.824,2.5-1.8,5.469-4.185,7.732a15.434,15.434,0,0,0,11.878-1.22,9.75,9.75,0,0,0,4.9-8.047l-4.4-4.4C22.683,37.4,21.825,40.006,20.428,44.244Z" transform="translate(771.563 3189.841)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111.51" height="111.51" viewBox="0 0 111.51 111.51">
+  <defs>
+    <filter id="Elipse_11513" x="0" y="0" width="111.51" height="111.51" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.072" y1="0.072" x2="0.928" y2="0.928" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00bde2"/>
+      <stop offset="1" stop-color="#001761"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1212314" data-name="Grupo 1212314" transform="translate(-1164.089 -3165.482)">
+    <g id="Grupo_1211725" data-name="Grupo 1211725" transform="translate(0 -2059.973)">
+      <g id="Grupo_1209510" data-name="Grupo 1209510" transform="translate(1.063 3556.211)">
+        <g id="Grupo_1144092" data-name="Grupo 1144092" transform="translate(1172.025 1675.245)">
+          <g id="Grupo_1143593" data-name="Grupo 1143593" transform="translate(0 0)">
+            <g id="Grupo_1143497" data-name="Grupo 1143497" transform="translate(0 0)">
+              <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Elipse_11513)">
+                <g id="Elipse_11513-2" data-name="Elipse 11513" transform="translate(9 6)" fill="#fdf2d5" stroke="#f5c038" stroke-width="3">
+                  <circle cx="46.755" cy="46.755" r="46.755" stroke="none"/>
+                  <circle cx="46.755" cy="46.755" r="45.255" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1185 3183)">
+      <g id="_16.users_class" data-name="16.users_class">
+        <rect id="background" width="70" height="70" rx="35" fill="url(#linear-gradient)"/>
+        <g id="icon" transform="translate(17.46 23.014)">
+          <g id="icon-2" data-name="icon" transform="translate(0 11.192)">
+            <path id="Trazado_1084745" data-name="Trazado 1084745" d="M42.971,88.48H43.8a4.971,4.971,0,0,1,4.971,4.971,1.2,1.2,0,0,1-1.2,1.2H39.2a1.2,1.2,0,0,1-1.2-1.2A4.971,4.971,0,0,1,42.971,88.48Z" transform="translate(-38 -82.034)" fill="#fff"/>
+            <circle id="Elipse_12610" data-name="Elipse 12610" cx="2.692" cy="2.692" r="2.692" transform="translate(2.692)" fill="#fff"/>
+          </g>
+          <g id="icon-3" data-name="icon" transform="translate(12.075 11.192)">
+            <path id="Trazado_1084746" data-name="Trazado 1084746" d="M69.251,88.48h.827a4.971,4.971,0,0,1,4.971,4.971,1.2,1.2,0,0,1-1.2,1.2H65.479a1.2,1.2,0,0,1-1.2-1.2A4.971,4.971,0,0,1,69.251,88.48Z" transform="translate(-64.28 -82.034)" fill="#fff"/>
+            <circle id="Elipse_12611" data-name="Elipse 12611" cx="2.692" cy="2.692" r="2.692" transform="translate(2.692)" fill="#fff"/>
+          </g>
+          <g id="icon-4" data-name="icon" transform="translate(24.145 11.192)">
+            <path id="Trazado_1084747" data-name="Trazado 1084747" d="M95.521,88.48h.832a4.971,4.971,0,0,1,4.971,4.971,1.2,1.2,0,0,1-1.2,1.2H91.749a1.2,1.2,0,0,1-1.2-1.2A4.971,4.971,0,0,1,95.521,88.48Z" transform="translate(-90.55 -82.034)" fill="#fff"/>
+            <circle id="Elipse_12612" data-name="Elipse 12612" cx="2.692" cy="2.692" r="2.692" transform="translate(2.697)" fill="#fff"/>
+          </g>
+          <path id="Trazado_1084748" data-name="Trazado 1084748" d="M73.406,50.09V60.575a4.291,4.291,0,0,0-3.446-.822V53.536H47.446v6.217a4.37,4.37,0,0,0-.818-.055A4.268,4.268,0,0,0,44,60.616V50.09Z" transform="translate(-41.243 -50.09)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

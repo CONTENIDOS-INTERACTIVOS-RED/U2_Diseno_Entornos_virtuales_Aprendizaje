@@ -15,17 +15,46 @@
 .brounded-sm
   border-radius: 8px !important
 
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important 
+
+.j1
+  display: grid
+  align-items: center  
+
+.br-1
+  border-radius: 10px !important 
+
+.color
+  &-1
+    color: #6A2C83 !important          
+
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #FDECC1
   &-2
-    background-color: #FFFBE8
+    background-color: #BDF7E7
   &-3
-    background-color: #F0E9F6
+    background-color: #E2E9F3
   &-4
-    background-color: #EAF8FD
+    background-color: #F2DBFC
+  &-5
+    background-color: #7B3289
+  &-6
+    background-color: #EBF0F7 
+  &-7
+    background-color: #A1BADA 
+  &-8
+    background-color: #E8FCF6  
+  &-9
+    background-color: #FDECC1             
   &-info
-    background-color: #E8EEFD
+    background-image: url("../assets/bg/bg-info.png") !important
   &-sintesis
     background-color: #F9F9F9
   &-white
@@ -39,23 +68,96 @@
   &.color-terciario
     border-top: 5px solid $color-terciario !important
 
+.bg
+  &-h85
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      bottom: 0%
+      left: 0
+      width: 100%
+      height: 82%
+      transform: translateY(-0%)
+      background-color: #6A2C83
+      z-index: 0
+    .col-lg-12
+      z-index: 1
+    @media screen and (max-width: $bp-max-md)
+      padding: 1rem
+      &::after
+        bottom: 0
+        height: 100%
+
+  &-h86
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      bottom: 0%
+      left: 0
+      width: 100%
+      height: 82%
+      transform: translateY(-0%)
+      background-color: #BDF7E7
+      z-index: 0
+    .col-lg-12
+      z-index: 1
+    @media screen and (max-width: $bp-max-md)
+      padding: 1rem
+      &::after
+        bottom: 0
+        height: 100%    
+
+  &-h87
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      bottom: 8%
+      left: 0
+      width: 100%
+      height: 90%
+      transform: translateY(-0%)
+      background-color: #FDECC1
+      z-index: 0
+    .col-lg-12
+      z-index: 1
+    @media screen and (max-width: $bp-max-md)
+      padding: 1rem
+      &::after
+        bottom: 0
+        height: 100%  
+                  
+
+
 // Full Width Background
 .bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-  @media screen and (max-width: $bp-max-sm)
-    padding-left: 1.5rem
-    padding-right: 1.5rem
+  &-1
+    background-size: 100% 88%
+    background-repeat: no-repeat
+    background-position: bottom
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem
+
+  &-2
+    background-size: 100% 50%
+    background-repeat: no-repeat
+    background-position: center
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem        
 
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+    background-image: url("../assets/bg/bg2.png") !important
+    background-position: center
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
@@ -142,6 +244,9 @@ $custom-card-img-height: 322px
 .shadow-soft
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
 
+.sha
+  border: 1px solid rgba(0, 0, 0, 0.027)    
+
 .tabs-content
   background-color: #F4F4F4
 
@@ -210,3 +315,32 @@ $custom-card-img-height: 322px
   a
     text-decoration: none
     color: $color-sistema-texto
+
+.slyder-f__btn i
+  background-color: #F8C234  
+
+.tabla-a-1 thead 
+  background-color: #C252F0 !important
+  color: white
+.tabla-a td 
+  border: 1px solid #CACACA !important    
+
+.acordion__header
+  background-color: lighten($color-secundario, 24%) !important
+
+.acordion__header--active
+  background-color: $color-secundario !important
+  h4, i
+    color: #000 !important
+
+.acordion__contenido
+  background-color: #E8FCF6 !important    
+
+.slyder-a__tipo-b
+  background-color: #1D7083 !important    
+.slyder-a__bullets__item
+  background-color: #BC9FC7 !important
+  border-color: #BC9FC7 !important
+.slyder-a__bullets__item--active
+  background-color: #A1BADA !important
+  border-color: #A1BADA !important  
