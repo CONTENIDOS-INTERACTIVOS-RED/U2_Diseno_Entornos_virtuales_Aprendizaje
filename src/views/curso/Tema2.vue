@@ -342,7 +342,7 @@
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/PyeHgYg7_zc?si=rs_9YZTUY1hcDzDu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     h3(data-aos="fade-down") Ejemplo aplicado: diseño inclusivo de un módulo sobre comunicación asertiva en educación
     p(data-aos="fade-down") Un grupo de docentes en formación virtual, cursa la asignatura “Habilidades Comunicativas para el Liderazgo Educativo”. Se requiere desarrollar un módulo accesible e inclusivo para que todos los participantes, con diferentes estilos de aprendizaje y posibles condiciones de discapacidad, puedan acceder al contenido y participar activamente.
@@ -413,7 +413,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Estrategias de comunicación y participación en entornos virtuales
             p.mb-4(data-aos="fade-right") Se invita a leer el documento “Estrategias de comunicación y participación en entornos virtuales”, donde se aborda el papel central que desempeña la comunicación pedagógica en contextos educativos en línea. 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.docx')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
